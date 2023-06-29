@@ -1,0 +1,11 @@
+#Exe	D:\RNA-Seq_hisat2_stringtie\bash.exe
+#Dependency	D:\RNA-Seq_hisat2_stringtie
+1	fastq2Exp_win.sh	Parameter			1	6	1	1
+2	-g	PasteAsInFilePath	Input Genome Seq File(fasta)		1	6	1	1
+3	-a	PasteAsInFilePath	Input Genome Annotation(gff3)		1	6	3	3
+4	-f	PasteAsInFilePath	Fastq file list(.gz or not)(2-paired data file name seperate in tab in the same line with local path))		1	6	5	5
+5	-i	Text	Prefix for index files	genome	1	2	7	7
+6	-l	Text	Average read length	75	4	5	7	7
+7	-t	Text	Threads to use in mapping	4	1	2	9	9
+8	-d true	CheckBox	Delete decompressed fastq files	false	4	6	9	9
+9	-o	DirectoryPath	Output directory		1	6	11	11

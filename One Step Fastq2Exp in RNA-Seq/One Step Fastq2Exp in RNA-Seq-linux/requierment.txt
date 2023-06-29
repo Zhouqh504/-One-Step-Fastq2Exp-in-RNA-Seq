@@ -1,0 +1,2 @@
+hisat2
+stringtie
